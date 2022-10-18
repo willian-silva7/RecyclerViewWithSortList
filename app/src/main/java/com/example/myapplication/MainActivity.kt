@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // getting the recyclerview by its id
         val recyclerview = findViewById<RecyclerView>(R.id.recicleView)
 
         // this creates a vertical layout Manager
